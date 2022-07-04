@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDelegate", "PDelegate\PDel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PGenericCollections", "PGenericCollections\PGenericCollections.csproj", "{C0C5864A-C5B2-4CC9-9096-7BF5C169A630}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POverrideOverload", "POverrideOverload\POverrideOverload.csproj", "{FADCEEF5-C5FE-46E1-A9A2-21CE772BA999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POverrideOverload", "POverrideOverload\POverrideOverload.csproj", "{FADCEEF5-C5FE-46E1-A9A2-21CE772BA999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAsync", "PAsync\PAsync.csproj", "{35620FAD-3E62-49EB-A604-6991A5B5A4D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{FADCEEF5-C5FE-46E1-A9A2-21CE772BA999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FADCEEF5-C5FE-46E1-A9A2-21CE772BA999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FADCEEF5-C5FE-46E1-A9A2-21CE772BA999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35620FAD-3E62-49EB-A604-6991A5B5A4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35620FAD-3E62-49EB-A604-6991A5B5A4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35620FAD-3E62-49EB-A604-6991A5B5A4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35620FAD-3E62-49EB-A604-6991A5B5A4D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
