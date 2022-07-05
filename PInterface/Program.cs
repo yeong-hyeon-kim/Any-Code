@@ -10,6 +10,7 @@ namespace PInterface
         void TurnOff();
     }
 
+    // 각 클래스 별로 추상적인 메서드를 구체화.
     class Monitor : IPower
     {
         public void TurnOn()
@@ -90,13 +91,17 @@ namespace PInterface
         // 반환 형식, 메서드명, 시그니처만 선언.
         // 인터페이스는 내용이 아닌 외형.
         // 구체적인 기능 구현은 인터페이스를 상속받는 클래스에서 작성. 
+
+        // 이동수단의 특성인 움직인다는 것을 Move 메서드로 추상화.
         void Move();
 
+        // 이동수단의 특성인 짐을 싣는다는 것을 Load 메서드로 추상화.
         void Load();
     }
 
     class Car : ITransportation
     {
+        // 추상적이었던 메서드를 각 클래스에 맞게 구체화.
         public void Load()
         {
             Console.WriteLine("차에 짐을 싣고 갑니다.");
