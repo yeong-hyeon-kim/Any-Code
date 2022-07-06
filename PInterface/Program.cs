@@ -1,8 +1,28 @@
-﻿using System.Configuration;
-using System.Data.OleDb;
-
-namespace PInterface
+﻿namespace PInterface
 {
+    #region 인터페이스 콜백
+    interface IDisplay
+    {
+        void Make();
+    }
+
+    class LGDisplay : IDisplay
+    {
+        public void Make()
+        {
+            Console.WriteLine("OLED TV");
+        }
+    }
+
+    class SamsungDisplay : IDisplay
+    {
+        public void Make()
+        {
+            Console.WriteLine("Micro LED TV");
+        }
+    }
+    #endregion
+
     #region 인터페이스 활용
     interface IPower
     {
@@ -178,6 +198,15 @@ namespace PInterface
             s.PowerOn(monitor);
             // IPower를 강제 구현(재정의)한 Monitor 클래스(Class)의 PowerOff 메소드(Method)가 실행된다.
             s.PowerOff(monitor);
+
+            // ※ 인터페이스(Interface) 콜백(CallBack) 사용
+            IDisplay[] displays = new IDisplay[] { new LGDisplay(), new SamsungDisplay() };
+
+            foreach (IDisplay item in displays)
+            {
+                // 상속받은 개체의 Draw 메서드 호출
+                item.Make();
+            }
         }
     }
 }
