@@ -3,7 +3,7 @@
     delegate void TestDelegate(int Number);
     class Program
     {
-        static void main(string[] args)
+        static void Main(string[] args)
         {
             #region Lamda
             // Lamda
