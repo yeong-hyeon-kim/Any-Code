@@ -1,9 +1,8 @@
 ﻿namespace PDelegate
 {
+    delegate void TestDelegate(int Number);
     class Program
     {
-        delegate void TestDelegate(int Number);
-
         static void main(string[] args)
         {
             #region Lamda
