@@ -82,11 +82,11 @@
 
             foreach (var QnaGroup in QueryQna)
             {
-                Console.WriteLine(QnaGroup.Key? "A004" : "다른 코드");
+                Console.WriteLine(QnaGroup.Key ? "A004" : "다른 코드");
 
                 foreach (var Qna in QnaGroup)
                 {
-                    Console.WriteLine("{0},{1},{2},{3},{4}",Qna.QnaNo, Qna.Title, Qna.Content, Qna.UserCd, Qna.WriteDateTime);
+                    Console.WriteLine("{0},{1},{2},{3},{4}", Qna.QnaNo, Qna.Title, Qna.Content, Qna.UserCd, Qna.WriteDateTime);
                 }
             }
 
@@ -101,7 +101,7 @@
             // select new { 무명 형식.필드 = 필요한 필드};
             var QnaInnerJoin = from Qna in QnaList
                                join User in UserList on Qna.UserCd equals User.UserCd
-                               select new {Title = Qna.Title, Content = Qna.Content, Writer = User.UserNm};
+                               select new { Title = Qna.Title, Content = Qna.Content, Writer = User.UserNm };
 
             Console.WriteLine("QnaInnerJoin");
 
@@ -125,9 +125,9 @@
             // from 범위 변수(비교 대상) in 범위 변수(내부 조인 결과)에서 빈칸(일치하는 데이터 없음)인 것을 "NULL" 로 채움.
             // select new { 무명 형식.필드 = 필요한 필드};
             var QnaLeftOuterJoin = from Qna in QnaList
-                                   join User in UserList on Qna.UserCd equals User.UserCd 
+                                   join User in UserList on Qna.UserCd equals User.UserCd
                                    into Nb
-                                   from User in Nb.DefaultIfEmpty(new User() { UserNm = "NULL"})
+                                   from User in Nb.DefaultIfEmpty(new User() { UserNm = "NULL" })
                                    select new { Title = Qna.Title, Content = Qna.Content, Writer = User.UserNm };
 
             Console.WriteLine("QnaLeftOuterJoin");
@@ -143,8 +143,8 @@
             var QnaRightOuterJoin = from User in UserList
                                     join Qna in QnaList on User.UserCd equals Qna.UserCd
                                     into Nb
-                                    from Qna in Nb.DefaultIfEmpty(new QNA() { Title = "NULL"})
-                                    
+                                    from Qna in Nb.DefaultIfEmpty(new QNA() { Title = "NULL" })
+
                                     select new { Title = Qna.Title, CompanyNm = User.CompanyNm, UserName = User.UserNm };
 
             Console.WriteLine("QnaRightOuterJoin");

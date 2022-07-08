@@ -33,7 +33,7 @@
             Console.WriteLine("Ray에 짐을 실어요~");
         }
 
-        override public void Move() 
+        override public void Move()
         {
             Console.WriteLine("Ray는 블루레이 처럼 빨라요~");
         }
