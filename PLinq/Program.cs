@@ -67,6 +67,8 @@
 
             #region LINQ Group
 
+            //var QueryQnas = UserList.Select(x => x.UserCd).ToList();
+
             // from 범위 변수 in 데이터
             // group 범위 변수(그룹화 할 범위 변수) by 그룹 조건식
             // into 그룹 범위 변수
