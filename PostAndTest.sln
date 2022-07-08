@@ -19,11 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PScope", "PScope\PScope.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PLinq", "PLinq\PLinq.csproj", "{11B7A7E4-AE25-42B3-BB52-375F36EB7D69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEvent", "PEvent\PEvent.csproj", "{96ECAD09-AC6B-409D-924B-4AD46E25AB0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEvent", "PEvent\PEvent.csproj", "{96ECAD09-AC6B-409D-924B-4AD46E25AB0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBuiltInResources", "PBuiltInResources\PBuiltInResources.csproj", "{F484F537-FBD2-43B1-840F-5C5AC60665DD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGeneric", "PGeneric\PGeneric.csproj", "{0F95A191-EE61-49F1-857C-8CB3B98BDC51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PGeneric", "PGeneric\PGeneric.csproj", "{0F95A191-EE61-49F1-857C-8CB3B98BDC51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,10 +65,6 @@ Global
 		{96ECAD09-AC6B-409D-924B-4AD46E25AB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96ECAD09-AC6B-409D-924B-4AD46E25AB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96ECAD09-AC6B-409D-924B-4AD46E25AB0F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F484F537-FBD2-43B1-840F-5C5AC60665DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F484F537-FBD2-43B1-840F-5C5AC60665DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F484F537-FBD2-43B1-840F-5C5AC60665DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F484F537-FBD2-43B1-840F-5C5AC60665DD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0F95A191-EE61-49F1-857C-8CB3B98BDC51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0F95A191-EE61-49F1-857C-8CB3B98BDC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F95A191-EE61-49F1-857C-8CB3B98BDC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
