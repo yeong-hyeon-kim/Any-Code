@@ -65,6 +65,19 @@
                 new User {UserCd = "A005", UserNm = "김서연", CompanyNm = "실패 컨설팅"}
             };
 
+            #region LINQ Lamda
+
+            // 특정 필드만 출력.
+            var FilterA_Qna = QnaList.Select(x => x.QnaNo).ToList();
+            // 조건식 지정 출력.
+            var FilterB_1_Qna = QnaList.Where(x => x.UserCd.Equals("A004")).ToList();
+            var FilterB_2_Qna = QnaList.Where(x => x.UserCd.Equals("A004") && x.Title.Equals("제목 E")).ToList();
+            // 그룹 지정 출력.
+            var FilterC_Qna = QnaList.GroupBy(x => x.UserCd.Equals("A004")).ToList();
+
+
+            #endregion
+
             #region LINQ Group
 
             //var QueryQnas = UserList.Select(x => x.UserCd).ToList();
@@ -76,7 +89,7 @@
             // select 그룹 범위 변수(최종 결과)
             var QueryQna = from Qna in QnaList
                            group Qna by Qna.UserCd == "A004"
-                           into gQna
+                           into gQna 
                            orderby gQna.Key
                            select gQna;
 
