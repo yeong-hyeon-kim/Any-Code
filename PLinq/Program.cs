@@ -98,15 +98,21 @@
             // on 비교 대상 범위 변수.필드 equals 데이터.필드
             // select new { 무명 형식.필드 = 필요한 필드};
             var QnaInnerJoin = from Qna in QnaList
-                          join User in UserList on Qna.UserCd equals User.UserCd
-                          select new {Title = Qna.Title, Content = Qna.Content, Writer = User.UserNm};
+                               join User in UserList on Qna.UserCd equals User.UserCd
+                               select new {Title = Qna.Title, Content = Qna.Content, Writer = User.UserNm};
 
+            Console.WriteLine("QnaInnerJoin");
+
+            foreach (var QnaJoin in QnaInnerJoin)
+            {
+                Console.WriteLine("{0},{1},{2} ", QnaJoin.Title, QnaJoin.Content, QnaJoin.Writer);
+            }
 
 
             // 외부 조인(OUTER JOIN) 조인 조건을 만족하지 않는 행까지 함께 출력할 때 사용됩니다.
 
 
-            // 왼쪽 외부 조인(Left Outer Join) 
+            // 왼쪽 외부 조인(Left Outer Join) - A, B를 조인했을때 A 전체 값과 B와 매칭되는 값을 조회합니다.
             // Right Qna, Left User
 
             // 범위 변수 in 원본 데이터
@@ -129,7 +135,7 @@
                 Console.WriteLine("{0},{1},{2},{3}", QnaJoin.Title, QnaJoin.Content, QnaJoin.Content, QnaJoin.Writer);
             }
 
-            // 오른쪽 외부 조인(Right Outer Join) 
+            // 오른쪽 외부 조인(Right Outer Join) - A, B를 조인했을때 B 전체 값과 B와 매칭되는 값을 조회합니다.
             // Right User , Left Qna
 
             var QnaRightOuterJoin = from User in UserList
