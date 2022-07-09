@@ -1,13 +1,12 @@
 ﻿namespace PGeneric
 {
-    public class Generics
+    public class Program
     {
         static void Main(string[] arg)
         {
-            ListAndArray();
+            AddListArray();
         }
-
-        static void Dictionarys()
+        static void AddDictionary()
         {
             // Dictionary<KeyType, ValueType> dic = new Dictionary<KeyType, ValueType>();
             Dictionary<string, string> dic = new Dictionary<string, string>();
@@ -18,22 +17,24 @@
             Console.WriteLine(dic["Key A"]);
         }
 
-        static void ListAndArray()
+        static void AddListArray()
         {
             List<string> StringList = new List<string>();
-            // 선언 시 배열 길이 필수 지정! 
+            // 선언 시 배열 길이 필수 지정
             string[] StringArray = new string[5];
 
             for (int i = 0; i < StringArray.Length; i++)
             {
-                // 값 대입 시 인덱스 지정 필수!
+                // 값 대입 시 인덱스 지정 필수
                 StringArray[i] = i.ToString();
                 StringList.Add(i.ToString());
             }
 
             StringArray[1] = "Insert";
+
             StringList.Insert(1, "Insert");
             StringList.Remove("Insert");
         }
+
     }
 }
