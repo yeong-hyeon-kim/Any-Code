@@ -2,10 +2,80 @@
 {
     public class Program
     {
+        const int Capacity = 5;
+
+        static Stack<string> stack = new Stack<string>(Capacity);
+        static Queue<string> queue = new Queue<string>(Capacity);
+
         static void Main(string[] arg)
         {
-            AddListArray();
+            //AddListArray();
+            //AddDictionary();
+
+            //StackPush();
+            //StackPop();
+
+            QueueEnqueue();
+            QueueDequeue();
         }
+
+        static void QueueEnqueue()
+        {
+            for (int i = 0; i < Capacity; i++)
+            {
+                queue.Enqueue("Dequeue : " + i);
+                Console.WriteLine("Enqueue : " + i);
+            }
+        }
+
+        static void QueueDequeue()
+        {
+            foreach (var item in queue)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+        static void StackPush()
+        {
+            for (int i = 0; i <= Capacity; i++)
+            {
+                stack.Push(i.ToString());
+                Console.WriteLine("STACK [" + i + "] = " + i);
+            }
+        } 
+
+        static void StackPop()
+        {
+            for (int i = 0; i <= Capacity; i++)
+            {
+                Console.WriteLine(stack.Pop());
+            }
+        }
+
+        static void StackOverflow()
+        {
+            try
+            {
+                stack.Push("Item");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+        static void StackUnderflow()
+        {
+            try
+            {
+                stack.Pop();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
         static void AddDictionary()
         {
             // Dictionary<KeyType, ValueType> dic = new Dictionary<KeyType, ValueType>();
@@ -35,6 +105,5 @@
             StringList.Insert(1, "Insert");
             StringList.Remove("Insert");
         }
-
     }
 }
