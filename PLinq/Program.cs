@@ -89,7 +89,7 @@
             // select 그룹 범위 변수(최종 결과)
             var QueryQna = from Qna in QnaList
                            group Qna by Qna.UserCd == "A004"
-                           into gQna 
+                           into gQna
                            orderby gQna.Key
                            select gQna;
 
