@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTernaryOperator", "PTernar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMemory", "PMemory\PMemory.csproj", "{C74CC832-D61E-4C43-9A39-A10C640B0A2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCallback", "PCallback\PCallback.csproj", "{5C0F4BB4-6B17-4925-BD3E-62E30C9F997E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCallback", "PCallback\PCallback.csproj", "{5C0F4BB4-6B17-4925-BD3E-62E30C9F997E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLoop", "PLoop\PLoop.csproj", "{4012125B-994B-4311-96BD-69CBE4E2ED73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{5C0F4BB4-6B17-4925-BD3E-62E30C9F997E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C0F4BB4-6B17-4925-BD3E-62E30C9F997E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C0F4BB4-6B17-4925-BD3E-62E30C9F997E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4012125B-994B-4311-96BD-69CBE4E2ED73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4012125B-994B-4311-96BD-69CBE4E2ED73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4012125B-994B-4311-96BD-69CBE4E2ED73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4012125B-994B-4311-96BD-69CBE4E2ED73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
