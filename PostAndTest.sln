@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCallback", "PCallback\PCal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLoop", "PLoop\PLoop.csproj", "{4012125B-994B-4311-96BD-69CBE4E2ED73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PConditional", "PConditional\PConditional.csproj", "{900F9C2C-A3E7-45A6-AF91-EFCF8A8B9B08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{4012125B-994B-4311-96BD-69CBE4E2ED73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4012125B-994B-4311-96BD-69CBE4E2ED73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4012125B-994B-4311-96BD-69CBE4E2ED73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900F9C2C-A3E7-45A6-AF91-EFCF8A8B9B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900F9C2C-A3E7-45A6-AF91-EFCF8A8B9B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900F9C2C-A3E7-45A6-AF91-EFCF8A8B9B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900F9C2C-A3E7-45A6-AF91-EFCF8A8B9B08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
