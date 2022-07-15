@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PConditional", "PConditiona
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEnum", "PENUM\PEnum.csproj", "{6B4CA11E-8B93-45A2-AEF1-6112BDF2D0BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRegularExpression", "PRegularExpression\PRegularExpression.csproj", "{30B1A962-46C8-4F0D-AFED-941EB9ECB9E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRegularExpression", "PRegularExpression\PRegularExpression.csproj", "{30B1A962-46C8-4F0D-AFED-941EB9ECB9E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRefValType", "PRefValType\PRefValType.csproj", "{8BCFEF1B-0343-435E-823F-A9C9A0D11BC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRefValType", "PRefValType\PRefValType.csproj", "{8BCFEF1B-0343-435E-823F-A9C9A0D11BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCollections", "PCollections\PCollections.csproj", "{686495CF-CD88-4466-86F1-C22294CB556A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{8BCFEF1B-0343-435E-823F-A9C9A0D11BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BCFEF1B-0343-435E-823F-A9C9A0D11BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BCFEF1B-0343-435E-823F-A9C9A0D11BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{686495CF-CD88-4466-86F1-C22294CB556A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686495CF-CD88-4466-86F1-C22294CB556A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686495CF-CD88-4466-86F1-C22294CB556A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686495CF-CD88-4466-86F1-C22294CB556A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
