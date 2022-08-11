@@ -4,7 +4,7 @@
     {
         static string FieldText = "";
 
-        void Main()
+        static void Main()
         {
             Action action = () =>
             {
