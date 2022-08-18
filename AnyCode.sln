@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTernaryOperator", "CSharp\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PVariable", "CSharp\PVariable\PVariable.csproj", "{EC0C93EE-11F2-4C98-AB6B-CBFC2909AD34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFolderFile", "PFolderFile\PFolderFile.csproj", "{688CCF4F-26B7-456B-B532-FD159EC5571A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{EC0C93EE-11F2-4C98-AB6B-CBFC2909AD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC0C93EE-11F2-4C98-AB6B-CBFC2909AD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC0C93EE-11F2-4C98-AB6B-CBFC2909AD34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688CCF4F-26B7-456B-B532-FD159EC5571A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688CCF4F-26B7-456B-B532-FD159EC5571A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688CCF4F-26B7-456B-B532-FD159EC5571A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688CCF4F-26B7-456B-B532-FD159EC5571A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +155,7 @@ Global
 		{E9F7627C-F39E-486E-91D4-97C4D111CA16} = {C00679E0-4E41-40AF-8FD2-970EB280C5BF}
 		{8D0B1121-6C2A-4DDE-ACC0-703A53B57D09} = {C00679E0-4E41-40AF-8FD2-970EB280C5BF}
 		{EC0C93EE-11F2-4C98-AB6B-CBFC2909AD34} = {C00679E0-4E41-40AF-8FD2-970EB280C5BF}
+		{688CCF4F-26B7-456B-B532-FD159EC5571A} = {C00679E0-4E41-40AF-8FD2-970EB280C5BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DF7EAAF-1C88-4C0F-BDF7-700843220FC4}
