@@ -43,7 +43,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTernaryOperator", "CSharp\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PVariable", "CSharp\PVariable\PVariable.csproj", "{EC0C93EE-11F2-4C98-AB6B-CBFC2909AD34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFolderFile", "PFolderFile\PFolderFile.csproj", "{688CCF4F-26B7-456B-B532-FD159EC5571A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFolderFile", "CSharp\PFolderFile\PFolderFile.csproj", "{688CCF4F-26B7-456B-B532-FD159EC5571A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
