@@ -1,6 +1,6 @@
 ﻿namespace PConditionalStatements
 {
-    
+
     class Program
     {
         static void Main()
@@ -46,7 +46,7 @@
         static void SwitchConditional()
         {
             string Animal = "북극곰";
-            
+
             switch (Animal)
             {
                 case "북극곰":

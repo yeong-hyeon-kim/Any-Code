@@ -43,7 +43,7 @@
                 stack.Push(i.ToString());
                 Console.WriteLine("STACK [" + i + "] = " + i);
             }
-        } 
+        }
 
         static void StackPop()
         {

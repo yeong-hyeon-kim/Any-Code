@@ -52,7 +52,7 @@
             while (Sum > 0)
             {
                 Sum -= 1;
-                Console.WriteLine("while : " +  Sum);
+                Console.WriteLine("while : " + Sum);
             }
 
             // do : 조건식이 만족할때까지 반복할때 사용.

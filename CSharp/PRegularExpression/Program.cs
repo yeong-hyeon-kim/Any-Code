@@ -1,5 +1,4 @@
-﻿using System.IO;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace PRegular
 {
@@ -13,7 +12,7 @@ namespace PRegular
         static void MatchRegex()
         {
             string Ns = "동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세. 무궁화 삼천리 화려 강산 대한 사람, 대한으로 길이 보전하세.";
-        
+
             Regex regex = new Regex("사");
             Match match = regex.Match(Ns);
             MatchCollection matchcollection = regex.Matches(Ns);

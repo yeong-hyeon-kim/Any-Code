@@ -6,7 +6,7 @@ namespace Collections
     {
         static ArrayList arrayList = new ArrayList();
 
-        static void Main() 
+        static void Main()
         {
             AddArrayList();
             ReturnArrayList();
