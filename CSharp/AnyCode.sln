@@ -5,45 +5,45 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{C00679E0-4E41-40AF-8FD2-970EB280C5BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PAsync", "CSharp\PAsync\PAsync.csproj", "{B2662BB5-6010-413E-BA73-B0E1382CA9D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PAsync", "PAsync\PAsync.csproj", "{B2662BB5-6010-413E-BA73-B0E1382CA9D5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCallback", "CSharp\PCallback\PCallback.csproj", "{48C17888-02F4-4744-81D8-9BDA9F170B99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCallback", "PCallback\PCallback.csproj", "{48C17888-02F4-4744-81D8-9BDA9F170B99}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCollections", "CSharp\PCollections\PCollections.csproj", "{5F83FFA0-40AD-4A5B-94C7-9836900E7BD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCollections", "PCollections\PCollections.csproj", "{5F83FFA0-40AD-4A5B-94C7-9836900E7BD6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PConditional", "CSharp\PConditional\PConditional.csproj", "{55E438EE-6050-4F6E-A82A-153E923D1E84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PConditional", "PConditional\PConditional.csproj", "{55E438EE-6050-4F6E-A82A-153E923D1E84}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDelegate", "CSharp\PDelegate\PDelegate.csproj", "{D64E1F6E-8D91-46CB-8799-A13890B7013D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDelegate", "PDelegate\PDelegate.csproj", "{D64E1F6E-8D91-46CB-8799-A13890B7013D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEnum", "CSharp\PEnum\PEnum.csproj", "{7089F37B-BE70-4A49-A326-A3C0F3ABDA4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEnum", "PEnum\PEnum.csproj", "{7089F37B-BE70-4A49-A326-A3C0F3ABDA4B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEvent", "CSharp\PEvent\PEvent.csproj", "{22A0D3C4-4638-4342-9421-F7CD7D3CD2AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEvent", "PEvent\PEvent.csproj", "{22A0D3C4-4638-4342-9421-F7CD7D3CD2AC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PGeneric", "CSharp\PGeneric\PGeneric.csproj", "{8E2B24AA-0F05-4EA2-8F48-55F44DF8107D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PGeneric", "PGeneric\PGeneric.csproj", "{8E2B24AA-0F05-4EA2-8F48-55F44DF8107D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PGenericCollections", "CSharp\PGenericCollections\PGenericCollections.csproj", "{4C24CDCA-3821-4407-8969-F4B00BF101AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PGenericCollections", "PGenericCollections\PGenericCollections.csproj", "{4C24CDCA-3821-4407-8969-F4B00BF101AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PInterface", "CSharp\PInterface\PInterface.csproj", "{6FD447F8-507F-448C-8F71-5FDBC46B4375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PInterface", "PInterface\PInterface.csproj", "{6FD447F8-507F-448C-8F71-5FDBC46B4375}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PLinq", "CSharp\PLinq\PLinq.csproj", "{49888967-21CF-4A8B-9EFB-C0AF90957CB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PLinq", "PLinq\PLinq.csproj", "{49888967-21CF-4A8B-9EFB-C0AF90957CB1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PLoop", "CSharp\PLoop\PLoop.csproj", "{23D7766C-B81A-4F9A-83F8-2966219C5B07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PLoop", "PLoop\PLoop.csproj", "{23D7766C-B81A-4F9A-83F8-2966219C5B07}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMemory", "CSharp\PMemory\PMemory.csproj", "{BFC92048-0315-4C13-ADF1-E59805B6BBFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMemory", "PMemory\PMemory.csproj", "{BFC92048-0315-4C13-ADF1-E59805B6BBFB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POverrideOverload", "CSharp\POverrideOverload\POverrideOverload.csproj", "{C3CC5233-F43F-4C5F-B129-485969004C33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POverrideOverload", "POverrideOverload\POverrideOverload.csproj", "{C3CC5233-F43F-4C5F-B129-485969004C33}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRefValType", "CSharp\PRefValType\PRefValType.csproj", "{05D27E58-B2DD-4521-976E-576E9FE5AD88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRefValType", "PRefValType\PRefValType.csproj", "{05D27E58-B2DD-4521-976E-576E9FE5AD88}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRegularExpression", "CSharp\PRegularExpression\PRegularExpression.csproj", "{34E7ADF2-97BC-4019-AAA1-F5C20B344222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRegularExpression", "PRegularExpression\PRegularExpression.csproj", "{34E7ADF2-97BC-4019-AAA1-F5C20B344222}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PScope", "CSharp\PScope\PScope.csproj", "{E9F7627C-F39E-486E-91D4-97C4D111CA16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PScope", "PScope\PScope.csproj", "{E9F7627C-F39E-486E-91D4-97C4D111CA16}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTernaryOperator", "CSharp\PTernaryOperator\PTernaryOperator.csproj", "{8D0B1121-6C2A-4DDE-ACC0-703A53B57D09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTernaryOperator", "PTernaryOperator\PTernaryOperator.csproj", "{8D0B1121-6C2A-4DDE-ACC0-703A53B57D09}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PVariable", "CSharp\PVariable\PVariable.csproj", "{EC0C93EE-11F2-4C98-AB6B-CBFC2909AD34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PVariable", "PVariable\PVariable.csproj", "{EC0C93EE-11F2-4C98-AB6B-CBFC2909AD34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFolderFile", "CSharp\PFolderFile\PFolderFile.csproj", "{688CCF4F-26B7-456B-B532-FD159EC5571A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFolderFile", "PFolderFile\PFolderFile.csproj", "{688CCF4F-26B7-456B-B532-FD159EC5571A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
