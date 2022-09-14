@@ -46,7 +46,7 @@
         {
             Computer All_IN_ONE = new Computer();
             Computer NOTE_BOOK = new Computer("16GB", "1TB");
-            Computer DESKTOP = new Computer("I9-9900K", "RTX-3080","32GB", "512GB");
+            Computer DESKTOP = new Computer("I9-9900K", "RTX-3080", "32GB", "512GB");
         }
     }
 }
