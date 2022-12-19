@@ -197,9 +197,10 @@
                 "고구마", "감자", "옥수수"
             };
 
-            var QuantifiersAllResult = (from Food in QuantifiersAll
-                                       select Food).All(item => item.Equals("옥수수"));
+            var QuantifiersAllQueryResult = (from Food in QuantifiersAll
+                                             select Food).All(item => item.Equals("옥수수"));
 
+            var QuantifiersAllMethodResult = QuantifiersAll.All(item => item.Equals("옥수수"));
 
             // Any : 데이터 집합의 요소 중 하나라도 조건을 만족하면 Ture 아니면 False
 
@@ -208,8 +209,12 @@
                2,4,6,8,10,12
             };
 
-            var QuantifiersAnyResult = (from Food in QuantifiersAny
-                                       select Food).Any(item => item > 10);
+            var QuantifiersAnyQueryResult = (from Food in QuantifiersAny
+                                             select Food).Any(item => item > 10);
+
+            var QuantifiersAnyMethodResult = QuantifiersAny.Any(item => item > 10);
+
+
 
             // Contains : 데이터 집합에서 특정 값이 포함되있다면 Ture 아니면 False
             List<string> QuantifiersContains = new List<string>()
@@ -217,8 +222,10 @@
                 "아반떼", "쏘나타" ,"그랜저", "제네시스"
             };
 
-            var QuantifiersContainsResult = (from Car in QuantifiersContains
+            var QuantifiersContainsQueryResult = (from Car in QuantifiersContains
                                              select Car).Contains("쏘나타");
+
+            var QuantifiersContainsMethodResult = QuantifiersContains.Contains("쏘나타");
         }
     }
 }
