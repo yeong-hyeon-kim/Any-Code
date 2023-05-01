@@ -6,10 +6,10 @@
     public class QNA
     {
         public int QnaNo { get; set; }
-        public string Title { get; set; }
-        public string Content { get; set; }
-        public string UserCd { get; set; }
-        public string WriteDateTime { get; set; }
+        public string? Title { get; set; }
+        public string? Content { get; set; }
+        public string? UserCd { get; set; }
+        public string? WriteDateTime { get; set; }
     }
 
     /// <summary>
@@ -17,9 +17,9 @@
     /// </summary>
     public class User
     {
-        public string UserCd { get; set; }
-        public string UserNm { get; set; }
-        public string CompanyNm { get; set; }
+        public string? UserCd { get; set; }
+        public string? UserNm { get; set; }
+        public string? CompanyNm { get; set; }
     }
 
     class Linq
@@ -115,7 +115,7 @@
             // select new { 무명 형식.필드 = 필요한 필드};
             var QnaInnerJoin = from Qna in QnaList
                                join User in UserList on Qna.UserCd equals User.UserCd
-                               select new { Title = Qna.Title, Content = Qna.Content, Writer = User.UserNm };
+                                select new { Title = Qna.Title, Content = Qna.Content, Writer = User.UserNm };
 
             Console.WriteLine("QnaInnerJoin");
 
